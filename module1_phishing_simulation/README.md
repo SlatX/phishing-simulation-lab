@@ -38,7 +38,7 @@ module1_phishing_simulation/
 
 ---
 
-## Quick demo (what to expect)
+## Quick demo 
 
 **Phishing page** (fake corporate login) → user submits credentials → `phishing_server.py` logs the submission into `results/captured_credentials.csv`.
 
