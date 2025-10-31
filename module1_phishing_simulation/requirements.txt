@@ -1,0 +1,5 @@
+flask
+pandas
+psutil
+requests
+python-dateutil
