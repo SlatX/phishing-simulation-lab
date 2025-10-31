@@ -146,20 +146,6 @@ bob,Password123,192.168.56.15
 
 ---
 
-## Visuals (placeholders — add real screenshots into `/screenshots`)
-
-- `screenshots/attack_flow.png` — diagram showing Email → Payload → Triage → Analysis  
-- `screenshots/wireshark_post.png` — Wireshark capture of HTTP POST to attacker host  
-- `screenshots/triage_json_view.png` — snapshot of `triage_output.json` opened in VS Code
-
-You can include them in this README like:
-
-```markdown
-![Attack Flow](screenshots/attack_flow.png)
-![Wireshark POST](screenshots/wireshark_post.png)
-```
-
----
 
 ## Attack mapping & detections — MITRE ATT&CK
 
@@ -205,14 +191,6 @@ During runs I enforced:
 - Create a Streamlit dashboard for visual timeline reconstruction from `triage_output.json`.  
 - Add unit tests for the triage JSON schema and CI to validate PRs.
 
----
-
-## How to present this in interviews
-
-When discussing this project:
-- Walk through the incident lifecycle you practiced (NIST IR).  
-- Explain why you captured memory early and how hashes/metadata support chain-of-custody.  
-- Show a short timeline from the artifacts (download → exec → network) and the detection you would tune in production.
 
 ---
 
@@ -223,7 +201,7 @@ Contributions welcome — fork, add small, documented PRs (e.g., add a Sigma rul
 **License:** MIT — see `LICENSE` file.
 
 **Author:** Ebenezer (GitHub: `slatX`)  
-Email: tommysimpson700@gmail.com  
+Email: Omoniyiebenezer97@gmail.com  
 GitHub: https://github.com/slatX
 
 ---
